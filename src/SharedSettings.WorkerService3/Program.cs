@@ -1,10 +1,8 @@
+using SharedSettings.Shared;
 using SharedSettings.WorkerService3;
 
 IHost host = Host.CreateDefaultBuilder(args)
-    .ConfigureAppConfiguration(configurationBuilder => 
-    {
-        configurationBuilder.AddJsonFile();
-    })
+    .AddSharedSettings()
     .ConfigureServices(services =>
     {
         services.AddHostedService<Worker>();
