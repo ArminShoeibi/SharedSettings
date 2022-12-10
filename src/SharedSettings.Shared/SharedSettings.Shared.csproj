@@ -13,17 +13,17 @@
 	
   <ItemGroup>
     <Content Include="SharedSettings.Production.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="SharedSettings.Staging.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="SharedSettings.Development.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
